@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+pkgsize/__init__.py
+pkgsize/cli.py
+pkgsize/core.py
+pkgsize.egg-info/PKG-INFO
+pkgsize.egg-info/SOURCES.txt
+pkgsize.egg-info/dependency_links.txt
+pkgsize.egg-info/entry_points.txt
+pkgsize.egg-info/requires.txt
+pkgsize.egg-info/top_level.txt
+tests/test_core.py
