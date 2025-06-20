@@ -1,3 +1,26 @@
+Metadata-Version: 2.4
+Name: pypkgsize
+Version: 1.0.0
+Summary: A Python package to analyze the disk usage of installed packages.
+Author-email: Duc Nguyen <minhducng.dev@gmail.com>
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/crkacer/pypkgsize
+Project-URL: Bug Tracker, https://github.com/crkacer/pypkgsize/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Topic :: System :: Filesystems
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click>=8.0
+Requires-Dist: packaging
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-mock; extra == "test"
+Dynamic: license-file
+
 # 📦 PkgSize - Python Package Size Analyzer
 
 PkgSize is a CLI tool and Python library for analyzing the disk space usage of installed Python packages, helping you manage your environments efficiently.
@@ -46,8 +69,10 @@ The `pkgsize analyze` command supports various options to customize the analysis
 
 ## Installation
 
+*(Placeholder for installation instructions, e.g., `pip install pypkgsize` if published, or steps for local editable install.)*
+To install the package locally for development:
 ```bash
-pip install pypkgsize
+pip install -e .
 ```
 
 ## Basic Usage
